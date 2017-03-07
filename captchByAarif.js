@@ -24,7 +24,7 @@ function myFunction() {
 }
 
 /**
- * This below method will call on change of input fields where use enter
+ * This below method will call on change of input fields where user enter
  * captcha code value
  */
 function chaeckCpatch(id)
