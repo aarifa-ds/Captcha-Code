@@ -9,7 +9,7 @@ myFunction();
 var val=[];        
 val.push("VQ7W3");     /** push value in this array  */
 val.push("A1234");     /** To maintain image order here   */
-val.push("A32BD");   /** if first image 0_capt.jpeg contains value VQ7W3 so pusg=h this value into zero(0) index of array   */
+val.push("A32BD");   /** if first image 0_capt.jpeg contains value VQ7W3 so push this value into zero(0) index of array   */
 val.push("LD673");
 val.push("PQ78V");
 val.push("MX81W");
@@ -19,8 +19,8 @@ var x;
  * captcha location 
  */
 function myFunction() {
-    x = Math.floor(Math.random() * 6);
-	$("#imgCaptchaPlace").html("<img id='abc' src='captcha_images/"+x+"_cpt'/>")  ;
+    x = Math.floor(Math.random() * 6);     // here 6 stand for how many images you are using return 0-6 number.
+	$("#imgCaptchaPlace").html("<img id='abc' src='captcha_images/"+x+"_cpt'/>")  ;   
 }
 
 /**
